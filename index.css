@@ -15,8 +15,19 @@
 
 .game-item h3 {
     margin-top: 0;
-    color: #c9d1d9;
+    color: #ffffff; /* Brighter white for the game title */
     font-size: 1.4rem;
+}
+
+/* Ensures body text inside the game item is soft and perfectly readable */
+.game-item p {
+    color: #c9d1d9; 
+}
+
+/* General links inside game items (if any are added later) */
+.game-item a:not(.store-btn) {
+    color: #58a6ff;
+    text-decoration: underline;
 }
 
 .store-btn {
